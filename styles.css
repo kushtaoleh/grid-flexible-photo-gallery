@@ -13,12 +13,16 @@ h1{
     padding: 0;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-template-rows: repeat(6, 200px);
-    grid-gap: 1rem;
+    gap: 1rem;
     grid-auto-flow: dense;
 }
-
+.gallery > .gallery__list > li{
+    margin: 0;
+    padding: 0;
+    /* align-self: start; */
+}
 .gallery > .gallery__list > li:nth-child(4n){
     grid-column: span 2;
     grid-row: span 2;
