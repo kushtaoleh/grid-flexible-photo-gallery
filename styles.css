@@ -34,6 +34,10 @@ li > figure{
     grid-column: span 3;
     grid-row: span 3;
 }
+.gallery > .gallery__list > li:nth-child(8n) {
+    grid-column: span 4;
+    grid-row: span 4;
+}
 .gallery > .gallery__list > li > figure {
     height: 100%;
 }
