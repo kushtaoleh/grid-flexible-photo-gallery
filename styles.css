@@ -18,7 +18,7 @@ h1{
     gap: 1rem;
     grid-auto-flow: dense;
 }
-.gallery > .gallery__list > li{
+li > figure{
     margin: 0;
     padding: 0;
     /* align-self: start; */
